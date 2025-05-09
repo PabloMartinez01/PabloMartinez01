@@ -9,7 +9,7 @@
   <a href="https://www.instagram.com/_pablomg_" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
   </a>
-  <a href="https://es.linkedin.com/in/pablo-mart%C3%ADnez-gonz%C3%A1lez-229a1b232" target="_blank">
+  <a href="https://es.linkedin.com/in/pablo-martinez-gonzalez-dev" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
   </a>
 </div>
