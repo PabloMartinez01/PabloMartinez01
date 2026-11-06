@@ -1,84 +1,53 @@
-![👋](https://www.cloudtransformation.com.sg/wp-content/uploads/2018/08/banner-softwaredev.jpg)
+# ¡Hola! Soy Pablo 👋
 
+Soy ingeniero de software backend. Me gusta programar, entender cómo funcionan las cosas por dentro y construir aplicaciones bien hechas, fáciles de mantener y que funcionen bien en producción.
 
-<div id="toc">
-  <ul align="center" style="list-style: none">
-    <summary>
-      <h1>
-        👋 Hi, my name is Pablo Martínez
-      </h1>
-    </summary>
-  </ul>
-</div>
+- 💻 Mi día a día: **Java, Spring Boot y microservicios**
+- 🧩 Me apasionan los **sistemas distribuidos** y todo lo que pasa cuando los servicios empiezan a hablar entre ellos con eventos
+- 🏗️ Fan del buen diseño: **arquitectura hexagonal, DDD y CQRS** para que el código aguante el paso del tiempo
+- ✅ Sin **tests** no hay deploy: unitarios, de integración y Testcontainers para desplegar tranquilo
+- 🤖 Explorando cómo llevar la **IA y los LLMs** de la demo a producción
+- 🤝 He puesto mi granito de arena en **Spring Shell**, del ecosistema Spring
 
-<div align="left">
-  <a href="mailto:pablomartinezcoder@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-  </a>
-  <a href="https://es.linkedin.com/in/pablo-martinez-gonzalez-dev" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  </a>
-</div>
+```java
+var pablo = Developer.builder()
+        .name("Pablo")
+        .loves(List.of("Java", "Spring Boot", "Kafka", "Arquitectura limpia"))
+        .currentlyLearning("Sistemas distribuidos a fondo")
+        .fuel("☕")
+        .build();
+```
 
+## 🎯 Intereses
 
-<h3 align="left">Hi, I’m Pablo Martínez, a Software Engineering graduate specializing in building web applications and microservice-based architectures with Java and Spring Boot. I’m passionate about designing scalable, clean, and well-structured solutions, and I enjoy both software development and continuous learning.</h3>
+- Arquitectura de software y diseño limpio
+- Sistemas distribuidos y mensajería con Kafka
+- Inteligencia artificial aplicada a producto
+- Aprender continuamente nuevas tecnologías
 
----
+## 🧰 Stack
 
-<h3 align="left">Rapid Fire</h3>
-
-- 💼 I'm currently working on: **💻 Designing and building backend services with Java + Spring Boot**
-- 🌱 I'm currently learning: **📚 Improving my skills in cloud-native development (Docker, Kubernetes)**
-- 💬 Ask me about: **💡 Java, Spring Boot, Microservices, REST APIs, SQL/NoSQL databases**
-
----
-
-<h3 align="left">Skills</h3>
-
-<div style="display:flex; flex-wrap:wrap; gap:8px; justify-content:left;">
-  <img src="https://img.shields.io/badge/Spring-6DB33F?logo=spring&logoColor=white&style=for-the-badge" alt="Spring">
-  
-  <img src="https://img.shields.io/badge/Java-007396?logo=java&logoColor=white&style=for-the-badge" alt="Java">
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white&style=for-the-badge" alt="Kotlin">
-
-   <img src="https://img.shields.io/badge/Maven-C71A36?logo=apachemaven&logoColor=white&style=for-the-badge" alt="Maven">
-  <img src="https://img.shields.io/badge/Gradle-02303A?logo=gradle&logoColor=white&style=for-the-badge" alt="Gradle">
-  
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white&style=for-the-badge" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?logo=mongodb&logoColor=white&style=for-the-badge" alt="MongoDB">
-  <img src="https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white&style=for-the-badge" alt="Redis">
-  
-  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge" alt="Docker">
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white&style=for-the-badge" alt="Kubernetes">
-
-  <img src="https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white&style=for-the-badge" alt="Angular">
-  
- <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge" alt="CSS3">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge" alt="TypeScript">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" alt="JavaScript">
-</div>
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Cloud](https://img.shields.io/badge/Spring_Cloud-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![LangChain4j](https://img.shields.io/badge/LangChain4j-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 
 ---
-
-<h3 align="left">GitHub Stats</h3>
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=pablomartinez01&theme=react&hide_title=false&hide_rank=false&show_icons=false&include_all_commits=false&count_private=true&line_height=23" alt="GitHub stats Card" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs?username=pablomartinez01&theme=react&hide_title=false&layout=compact&langs_count=6&hide_progress=false&card_width=400" alt="GitHub top-langs Card" />
+  Si te apetece hablar de backend, arquitectura o algún proyecto, estaré encantado de charlar. 🚀
 </p>
-
----
-
-<h3 align="left">GitHub Trophies</h3>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=pablomartinez01&theme=onestar&no-frame=false&no-bg=false&margin-w=15&margin-h=15" alt="trophies" />
-</div>
-
----
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=pablomartinez01&radius=16&theme=react&area=true&order=5&hide_title=false&hide_border=false" height="300" alt="activity-graph graph"  />
-</div>
-
