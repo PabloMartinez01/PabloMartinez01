@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#121A30"/>
+    </linearGradient>
+    <radialGradient id="blobA" cx="0.18" cy="0.2" r="0.45">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blobB" cx="0.85" cy="0.85" r="0.5">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#FFFFFF" fill-opacity="0.07"/>
+    </pattern>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="1000" height="260" rx="16"/></clipPath>
+    <clipPath id="typing">
+      <rect x="367" y="148" height="32" width="0">
+        <animate attributeName="width" from="0" to="252" begin="0.8s" dur="1.6s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <style>
+    .sans { font-family: 'Segoe UI', Inter, -apple-system, Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace; }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="260" fill="url(#bg)"/>
+    <rect width="1000" height="260" fill="url(#dots)"/>
+    <rect width="1000" height="260" fill="url(#blobA)"/>
+    <rect width="1000" height="260" fill="url(#blobB)"/>
+  </g>
+
+  <!-- Nombre -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.1s" dur="0.7s" fill="freeze"/>
+    <text class="sans" x="500" y="112" font-size="58" font-weight="700" fill="#F5F7FB" text-anchor="middle" letter-spacing="-0.5">Pablo Martínez</text>
+    <rect x="400" y="132" width="200" height="2" fill="url(#accent)"/>
+  </g>
+
+  <!-- Línea de terminal con efecto de escritura -->
+  <text class="mono" x="367" y="172" font-size="22" textLength="252" lengthAdjust="spacingAndGlyphs" clip-path="url(#typing)"><tspan fill="#22D3EE">&gt;</tspan><tspan fill="#C9D4E5"> backend developer</tspan></text>
+
+  <!-- Cursor que acompaña al texto y luego parpadea -->
+  <rect x="371" y="153" width="11" height="22" fill="#22D3EE" filter="url(#glow)">
+    <animate attributeName="x" from="371" to="623" begin="0.8s" dur="1.6s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Stack -->
+  <text class="mono" x="500" y="214" font-size="13" fill="#7D8BA3" text-anchor="middle" letter-spacing="1" opacity="0">java · spring boot · microservicios · kafka
+    <animate attributeName="opacity" from="0" to="1" begin="2.5s" dur="0.8s" fill="freeze"/>
+  </text>
+</svg>

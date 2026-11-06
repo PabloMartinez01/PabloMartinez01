@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="Pablo Martínez — Backend Developer" width="100%">
+</p>
+
 # ¡Hola! Soy Pablo 👋
 
 Soy ingeniero de software backend. Me gusta programar, entender cómo funcionan las cosas por dentro y construir aplicaciones bien hechas, fáciles de mantener y que funcionen bien en producción.
